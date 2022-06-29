@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/React-youtube-clone/static/css/main.ee439279.css",
+    "main.js": "/React-youtube-clone/static/js/main.0af93490.js",
+    "static/media/YouTube-Logo.wine.svg": "/React-youtube-clone/static/media/YouTube-Logo.wine.9dce52e409158b9b52fb8d048ec295b6.svg",
+    "index.html": "/React-youtube-clone/index.html",
+    "main.ee439279.css.map": "/React-youtube-clone/static/css/main.ee439279.css.map",
+    "main.0af93490.js.map": "/React-youtube-clone/static/js/main.0af93490.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee439279.css",
+    "static/js/main.0af93490.js"
+  ]
+}
