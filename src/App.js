@@ -29,6 +29,17 @@ function App() {
             }
           />
           <Route
+            path="/React-youtube-clone/"
+            element={
+              <div className="main">
+                <Sidebar />
+                <div className="main-section">
+                  <Videos/>
+                </div>
+              </div>
+            }
+          />
+          <Route
             path="/search/:searchTerm"
             element={
               <div className="main">
