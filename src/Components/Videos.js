@@ -16,7 +16,7 @@ function makeRequest() {
         key: process.env.REACT_APP_API_KEY,
         part: "snippet, statistics",
         chart: "mostPopular",
-        maxResults: 5,
+        maxResults: 100,
         // regionCode: "IN",
         
       })

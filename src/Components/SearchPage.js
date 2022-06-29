@@ -14,7 +14,7 @@ function makeSearchRequest(input) {
       new URLSearchParams({
         key: process.env.REACT_APP_API_KEY,
         part: "snippet",
-        maxResults: 5,
+        maxResults: 50,
         // videoCategoryId: 10,
         q: input,
       })
