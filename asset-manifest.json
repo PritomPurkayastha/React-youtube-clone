@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.ee439279.css",
-    "main.js": "/static/js/main.e485e978.js",
-    "static/media/YouTube-Logo.wine.svg": "/static/media/YouTube-Logo.wine.9dce52e409158b9b52fb8d048ec295b6.svg",
-    "index.html": "/index.html",
-    "main.ee439279.css.map": "/static/css/main.ee439279.css.map",
-    "main.e485e978.js.map": "/static/js/main.e485e978.js.map"
+    "main.css": "/React-youtube-clone/static/css/main.ee439279.css",
+    "main.js": "/React-youtube-clone/static/js/main.f387e4d7.js",
+    "static/media/YouTube-Logo.wine.svg": "/React-youtube-clone/static/media/YouTube-Logo.wine.9dce52e409158b9b52fb8d048ec295b6.svg",
+    "index.html": "/React-youtube-clone/index.html",
+    "main.ee439279.css.map": "/React-youtube-clone/static/css/main.ee439279.css.map",
+    "main.f387e4d7.js.map": "/React-youtube-clone/static/js/main.f387e4d7.js.map"
   },
   "entrypoints": [
     "static/css/main.ee439279.css",
-    "static/js/main.e485e978.js"
+    "static/js/main.f387e4d7.js"
   ]
 }
