@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,400;1,700&display=swap');
+.channelDetails{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.channelInfoArea{
+    display: flex;
+    align-items: center;
+}
+.avaterArea{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    /* background-color: red; */
+}
+.avatarLogo{
+    /* background: red; */
+    width: 100%;
+    padding: 40px;
+}
+.information{
+    margin-left: 22px;
+    margin-right: 20px;
+}
+.avatarLogo img{
+    width: 300%;
+}
+.channelTitle{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+.channelData{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #606060;
+}
+.Channeldescription{
+    margin-top: 5px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+}
+.bellIcon{
+    cursor: pointer;
+}
+.searchPageVideoCard{
+    display: flex;
+    /* align-items: center; */
+    margin-bottom: 10px;
+}
+.searchPageVideoCard img{
+    width: 350px;
+    height: 200px;
+}
+.videoDetails{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.videoTitle{
+    font-family: 'Roboto', sans-serif;
+    color: #030303;
+    font-size: 18px;
+}
+.VideoData{
+    font-size: 13px;
+    color: #606060;
+}
+.channelName{
+    color: #606060;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.videoDescription{
+    color: #606060;
+    font-size: 13px;
+    margin-top: 10px;
+}

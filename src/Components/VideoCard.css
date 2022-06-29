@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,400;1,700&display=swap');
+.videoCard{
+    width: 250px;
+    height: 260px;
+    margin-right: 20px;
+    margin-bottom: none;
+}
+.thumbnail{
+    height: 140px;
+    width: 250px;
+    cursor: pointer;
+}
+.videoCardInfo{
+    display: flex;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.videoTitle h4{
+    font-weight: 500;
+    margin-left: 8px;
+    font-size: 15px;
+    width: 200px;
+}
+
+.videoTitle span{
+   color: gray;
+   font-size: 14px;
+   margin-left: 5px;
+}
+.videoTitle div{
+    color: gray;
+    font-size: 13px;
+    margin-left: 5px;
+}
+.videoCardInfo .avatar{
+    width: 40px;
+    height: 40px;
+}

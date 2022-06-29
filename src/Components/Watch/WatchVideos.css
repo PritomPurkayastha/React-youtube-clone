@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,400;1,700&display=swap');
+.watchVideos{
+    flex: 0.6;
+    margin-bottom: 30px;
+    max-width: 800px;
+}
+.title{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    font-weight: 410;
+}
+.videoInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.interactiveIcons{
+    display: flex;
+    margin-right: 25px;
+    justify-content: space-between;
+}
+.icons{
+    padding-right: 5px;
+    cursor: pointer;
+}
+span{
+    padding-right: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.share{
+    transform: rotate(180deg) rotateX(180deg);
+}
+.channelInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.avatarIcon{
+    padding: 9px;
+}
+.channelName{
+    display: flex;
+    align-items: center;
+}
+.channelSubCount .channel{
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 401;
+
+}
+.channelSubCount .subsCount{
+    margin-left: 20px;
+    font-size: 14px;
+    color: gray;
+}
+.subscribe{
+    background-color: red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+    border: none;
+    /* width: 130px;
+    height: 39px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.description{
+    margin-left: 75px;
+}
+.showMore{
+    margin-left: 75px;
+    margin-top: 20px;
+    border: none;
+    background: none;
+    font-weight: bold;
+    color: #606060;
+    cursor: pointer;
+}
+.button{
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.interect{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+/* @media screen and (max-width: 1360px){
+    .video{
+        width: 1366px;
+    }
+    .watchVideo .video{
+        width: 100%;
+    }
+} */

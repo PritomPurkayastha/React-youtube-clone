@@ -1,0 +1,26 @@
+.filter{
+    height: 50px;
+    display: flex;
+    position: sticky;
+    top: 80px;
+    width: calc(100% - -250px);
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    align-items: center;
+    overflow-x: hidden;
+    background-color: #f9f9f9;
+}
+.filter-btn{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #f0f0f0;
+    border: 1px solid #dbdbdb;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.filter::-webkit-scrollbar{
+    display: none;
+}
+.filter-btn.active{
+    background: black;
+}

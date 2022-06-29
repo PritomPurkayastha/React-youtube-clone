@@ -1,0 +1,10 @@
+.suggestedVideoCard{
+    display: flex;
+    width: 400px;
+    height: 120px;
+    /* background-color: red; */
+    /* margin-bottom: 5px; */
+}
+.sideBarThumbnail{
+    width: 180px;
+}

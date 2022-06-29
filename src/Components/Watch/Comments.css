@@ -1,0 +1,49 @@
+.comments{
+    flex: 0.6;
+    max-width: 800px;
+}
+.commentCount{
+    display: flex;
+    margin-top: 20px;
+}
+.commentCount .sortIcon{
+    margin-left: 30px;
+}
+.commentCount p{
+    font-weight: 500;
+}
+.commentSection{
+    margin-top: 20px;
+}
+.addComment{
+    display: flex;
+    align-items: center;
+}
+.addComment form input{
+    margin-left: 10px;
+    display: flex;
+    box-sizing: content-box;
+    border: none;
+    border-bottom: 1px solid #606060;
+    padding: 8px;
+    padding-right: 500px;
+}
+.addComment form input:focus{
+    outline: none;
+}
+.formButtons{
+    float: right;
+    margin-right: 50px;
+}
+.formButton{
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding-right: 20px;
+    color: #606060;
+    font-weight: bold;
+}
+.commentButton{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #717171;
+}

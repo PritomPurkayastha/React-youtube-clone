@@ -1,0 +1,26 @@
+.TrendingVideoCard{
+    display: flex;
+    margin-bottom: 10px;
+}
+.TrendingThumbnail{
+    width: 250px;
+}
+.TrendingVideoInfo{
+    margin-left: 20px;
+}
+.channelTitle{
+    display: flex;
+    font-size: 13px;
+    color: #606060;
+    margin-top: 5px;
+    align-items: center;
+}
+.videoData{
+    margin-left: 10px;
+    font-size: 13px;
+    color: #606060;
+}
+.Videodescription{
+    font-size: 13px;
+    color: #606060;
+}

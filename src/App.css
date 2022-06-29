@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    /* background-color: #111; */
+    /* color: white; */
+}
+.main{
+    display: flex;
+}
+.main-section{
+    flex: 0.83;
+}
+.App::-webkit-scrollbar{
+    display: none;
+}
