@@ -57,7 +57,7 @@ function App() {
               </div>
             }
           />
-          <Route path="/watch/:id" element={<Watch />} />
+          <Route path="/watch" element={<Watch />} />
           <Route path="/c" element={<Sidebar />} />
           <Route
             path="/feed/explore"
