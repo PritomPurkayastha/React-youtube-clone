@@ -100,7 +100,6 @@ function Header() {
             Sign Out
           </Button>
         )}
-        
       </div>
     </div>
   );

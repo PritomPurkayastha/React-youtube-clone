@@ -5,6 +5,8 @@
     padding-bottom: 0;
     background-color: #f9f9f9;
     margin-left: 20px;
+    overflow-y: scroll;
+    height: 100vh;
 }
 .filter{
     display: flex;

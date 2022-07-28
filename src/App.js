@@ -1,8 +1,8 @@
-// import { useEffect, useState } from "react";
+
 import "./App.css";
+import { lazy, Suspense } from "react";
 import Header from "./Components/Header";
 import Sidebar from "./Components/Sidebar";
-import Videos from "./Components/Videos";
 // import Filter from "./Components/Filter";
 import SearchPage from "./Components/SearchPage";
 import Watch from "./Components/Watch/Watch";
@@ -10,6 +10,13 @@ import { Routes, Route } from "react-router-dom";
 import State from "./Context/State";
 import Explore from "./Components/ExplorePage/Explore";
 import TrendingVideos from "./Components/ExplorePage/TrandingPage/TrendingVideos";
+import Loading from "./Components/Loading";
+
+
+const Videos = lazy(function () {
+  return import("./Components/Videos");
+});
+
 function App() {
   return (
     <State>
@@ -23,7 +30,7 @@ function App() {
                 <Sidebar />
                 <div className="main-section">
                   {/* <Filter className="filterComponent"/> */}
-                  <Videos/>
+                  <Videos />
                 </div>
               </div>
             }
@@ -34,7 +41,9 @@ function App() {
               <div className="main">
                 <Sidebar />
                 <div className="main-section">
-                  <Videos/>
+                  <Suspense fallback={<Loading/>}>
+                    <Videos />
+                  </Suspense>
                 </div>
               </div>
             }
@@ -59,12 +68,15 @@ function App() {
               </div>
             }
           />
-          <Route path="/feed/trending" element={
-            <div className="main">
-            <Sidebar />
-            <TrendingVideos />
-          </div>
-          }/>
+          <Route
+            path="/feed/trending"
+            element={
+              <div className="main">
+                <Sidebar />
+                <TrendingVideos />
+              </div>
+            }
+          />
         </Routes>
       </div>
     </State>

@@ -2,7 +2,9 @@ import setContext from "./Context";
 import { useState } from "react";
 import React from "react";
 import Trending from "../Components/ExplorePage/Trending";
+
 function State({ children }) {
+  console.log(children , "afnsefjnsenf")
   const [menu, setMenu] = useState(false);
   const [input, setInput] = useState("");
   const [data, setData] = useState(null);

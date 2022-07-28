@@ -2,6 +2,8 @@
 .TrandingVideos{
     flex: 0.83;
     padding: 28px 28px;
+    overflow-y: scroll;
+    height: 100vh;
 }
 .Trending{
     display: flex;

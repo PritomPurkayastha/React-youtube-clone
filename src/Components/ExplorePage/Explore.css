@@ -3,6 +3,8 @@
     flex: 0.83;
     background-color: #f9f9f9;
     padding: 28px 28px;
+    overflow-y: scroll;
+    height: 100vh;
 }
 .categories{
     width: 100%;

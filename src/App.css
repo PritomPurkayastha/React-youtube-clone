@@ -3,6 +3,9 @@
     /* background-color: #111; */
     /* color: white; */
 }
+.App{
+    overflow-y: auto;
+}
 .main{
     display: flex;
 }
